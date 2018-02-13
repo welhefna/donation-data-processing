@@ -12,10 +12,10 @@ The directory structure for your repo should look like this:
     ├── README.md 
     ├── run.sh
     ├── src
-    │   └── donation-analytics.py
+    │   └── donation-analytics.py	; main program
     │   └── Analytic	;donor analytic package
-    │   	└── Contributor	;donor package
-    │   	└── Percentile	;percentil package
+    │   	└── Contributor	;donor package,	process and validate donor data
+    │   	└── Percentile	;percentil package, calculate running quantile 
     │   	└── Reader	;general purpose package use itreator to read input file, use strategy pattern for tokenize data recods	
     │   	└── Tokenizer	;implement tokenizer algorithms
     │   	└── Validator	;implement validator algorithms
@@ -39,4 +39,15 @@ The directory structure for your repo should look like this:
                 │   └── your-own-input-for-itcont.txt
                 |── output
                     └── repeat_donors.txt
+                    
+                    
+                    
+                    
+-Program run:
+	chmod +x run.sh
+	./run.sh
+	
+	or
+	
+	sh run.sh
 
