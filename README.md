@@ -11,7 +11,7 @@ The directory structure for your repo should look like this:
     ├── src
     │   └── donation-analytics.py
     │   └── Analytic	;donor analytic package
-    │   	└── Contributor	;donor pakage
+    │   	└── Contributor	;donor package
     │   	└── Percentile	;percentil package
     │   	└── Reader	;general purpose package use itreator to read input file, use strategy pattern for tokenize data recods	
     │   	└── Tokenizer	;implement tokenizer algorithms
