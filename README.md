@@ -4,7 +4,7 @@ depend on data format and specifications, the program make use itreator and stra
 identify common communication patterns between objects.
 
 - unittest is employed to test the functionality of each package.
-##
+
 ## Program run
 
 	chmod +x run.sh
