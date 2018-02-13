@@ -4,6 +4,20 @@ identify common communication patterns between objects.
 
 - unittest is employed to test the functionality of each package.
 
+##Program run
+
+	chmod +x run.sh
+	./run.sh
+	
+	or
+	
+	sh run.sh
+	
+	
+	
+## Contact
+
+welhe001@odu.edu
 
 ## Repo directory structure
 
@@ -43,12 +57,5 @@ The directory structure for your repo should look like this:
                     
                     
                     
--Program run:
 
-	chmod +x run.sh
-	./run.sh
-	
-	or
-	
-	sh run.sh
 
