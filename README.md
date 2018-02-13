@@ -1,3 +1,7 @@
+This program designed to be dynamic where programmer can configure and change the processing
+depend on data format and specifications, the program make use itreator and strategy behavioral patterns to
+identify common communication patterns between objects and realize these patterns.
+
 ## Repo directory structure
 
 The directory structure for your repo should look like this:
